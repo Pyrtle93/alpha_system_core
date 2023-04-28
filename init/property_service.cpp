@@ -1310,6 +1310,7 @@ static void SetSafetyNetProps() {
     InitPropertySet("ro.system.build.tags", "release-keys");
     InitPropertySet("ro.vendor.boot.warranty_bit", "0");
     InitPropertySet("ro.vendor.warranty_bit", "0");
+    InitPropertySet("ro.product.first_api_level", "32");
     InitPropertySet("vendor.boot.vbmeta.device_state", "locked");
     InitPropertySet("vendor.boot.verifiedbootstate", "green");
 
